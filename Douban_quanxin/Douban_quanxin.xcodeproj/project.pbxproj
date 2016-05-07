@@ -120,6 +120,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2634FA6A1CDDCF92005E12C2 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				2634FA661CDDC8F4005E12C2 /* LaunchScreen.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
 		4A5B05B21CDB671700044517 = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +156,7 @@
 				62ED1D121CDB6C5900845318 /* LIcontroller */,
 				4A5B05DB1CDB683300044517 /* Model */,
 				4A5B05C11CDB671700044517 /* AppDelegate.h */,
-				2634FA661CDDC8F4005E12C2 /* LaunchScreen.xib */,
+				2634FA6A1CDDCF92005E12C2 /* Xib */,
 				2FEA36F51CDCBD1B00C9AAB1 /* New.storyboard */,
 				4A5B05C21CDB671700044517 /* AppDelegate.m */,
 				4A5B05C41CDB671700044517 /* ViewController.h */,
