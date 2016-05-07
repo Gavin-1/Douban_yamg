@@ -16,7 +16,7 @@
                     <color key="backgroundColor" red="0.99607843137254903" green="0.76078431372549016" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="36"/>
                     <nil key="highlightedColor"/>
-                    <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                    <variation key="widthClass=compact" misplaced="YES">
                         <rect key="frame" x="21" y="152" width="371" height="66"/>
                     </variation>
                 </label>
@@ -24,15 +24,18 @@
                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <nil key="highlightedColor"/>
-                    <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                    <variation key="widthClass=compact" misplaced="YES">
                         <rect key="frame" x="21" y="510" width="371" height="59"/>
                     </variation>
                 </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="1w9-OB-FPB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="FJK-um-3Af"/>
-                <constraint firstAttribute="bottom" secondItem="ojn-co-cJW" secondAttribute="bottom" constant="20" id="FyW-mw-GAf"/>
+                <constraint firstItem="1w9-OB-FPB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8KY-ZD-9jO"/>
+                <constraint firstItem="ojn-co-cJW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DQm-WD-unJ"/>
+                <constraint firstItem="ojn-co-cJW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ROM-l0-qDo"/>
+                <constraint firstAttribute="bottom" secondItem="ojn-co-cJW" secondAttribute="bottom" constant="20" id="X45-LR-BfI"/>
+                <constraint firstItem="1w9-OB-FPB" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="1" id="r07-gg-Eg4" userLabel="豆瓣电台思密达.centerY = 0.333333 × bottom + 1"/>
                 <constraint firstItem="1w9-OB-FPB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yVt-fb-3Zy"/>
             </constraints>
             <variation key="default">
@@ -41,9 +44,12 @@
                     <exclude reference="ojn-co-cJW"/>
                 </mask>
                 <mask key="constraints">
-                    <exclude reference="FJK-um-3Af"/>
+                    <exclude reference="8KY-ZD-9jO"/>
+                    <exclude reference="r07-gg-Eg4"/>
                     <exclude reference="yVt-fb-3Zy"/>
-                    <exclude reference="FyW-mw-GAf"/>
+                    <exclude reference="DQm-WD-unJ"/>
+                    <exclude reference="ROM-l0-qDo"/>
+                    <exclude reference="X45-LR-BfI"/>
                 </mask>
             </variation>
             <variation key="widthClass=compact">
@@ -52,9 +58,12 @@
                     <include reference="ojn-co-cJW"/>
                 </mask>
                 <mask key="constraints">
-                    <include reference="FJK-um-3Af"/>
+                    <include reference="8KY-ZD-9jO"/>
+                    <include reference="r07-gg-Eg4"/>
                     <include reference="yVt-fb-3Zy"/>
-                    <include reference="FyW-mw-GAf"/>
+                    <include reference="DQm-WD-unJ"/>
+                    <include reference="ROM-l0-qDo"/>
+                    <include reference="X45-LR-BfI"/>
                 </mask>
             </variation>
         </view>
