@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2634FA671CDDC8F4005E12C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2634FA661CDDC8F4005E12C2 /* LaunchScreen.xib */; };
 		26E7BB311CDC74F500EA3144 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		26E7BB391CDC773100EA3144 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		26E7BB3A1CDC773100EA3144 /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		05EA02610361EE75E37283D5 /* Pods-Douban_quanxin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.release.xcconfig"; sourceTree = "<group>"; };
+		2634FA661CDDC8F4005E12C2 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		27F479C615DC837D4E4775A7 /* Pods-Douban_quanxin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.debug.xcconfig"; sourceTree = "<group>"; };
 		2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2FB8ABB81CDB6D8700D47097 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				4A5B05DB1CDB683300044517 /* Model */,
 				4A5B05C11CDB671700044517 /* AppDelegate.h */,
 				2FEA36F51CDCBD1B00C9AAB1 /* New.storyboard */,
+				2634FA661CDDC8F4005E12C2 /* LaunchScreen.xib */,
 				4A5B05C21CDB671700044517 /* AppDelegate.m */,
 				4A5B05C41CDB671700044517 /* ViewController.h */,
 				4A5B05C51CDB671700044517 /* ViewController.m */,
@@ -290,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2634FA671CDDC8F4005E12C2 /* LaunchScreen.xib in Resources */,
 				4A5B05CE1CDB671700044517 /* LaunchScreen.storyboard in Resources */,
 				4A5B05CB1CDB671700044517 /* Assets.xcassets in Resources */,
 				2FEA36F61CDCBD1B00C9AAB1 /* New.storyboard in Resources */,
