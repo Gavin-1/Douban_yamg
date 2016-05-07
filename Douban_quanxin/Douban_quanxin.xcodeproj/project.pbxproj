@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2634FA671CDDC8F4005E12C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2634FA661CDDC8F4005E12C2 /* LaunchScreen.xib */; };
 		26E7BB311CDC74F500EA3144 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		26E7BB391CDC773100EA3144 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		26E7BB3A1CDC773100EA3144 /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -35,6 +36,9 @@
 		4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F71CDB68B400044517 /* UserInfo.m */; };
 		4AA2103A1CDDC9F900E0BA46 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA210391CDDC9F900E0BA46 /* libAFNetworking.a */; };
 		4AD3BDAD1CDCA88600B52F6D /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */; };
+		62E2BF4A1CDDC95C0065451F /* ChannelsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E2BF481CDDC95C0065451F /* ChannelsTableViewCell.m */; };
+		62E2BF4B1CDDC95C0065451F /* ChannelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62E2BF491CDDC95C0065451F /* ChannelsTableViewCell.xib */; };
+		62E2BF4F1CDDCA1D0065451F /* ChannelsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62E2BF4E1CDDCA1D0065451F /* ChannelsTableViewController.xib */; };
 		62ED1D151CDB6CDB00845318 /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */; };
 		62F5AAF61CDC7E3100B2C17D /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */; };
 		62F5AAF71CDC7E3100B2C17D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAF11CDC7E3100B2C17D /* LoginViewController.m */; };
@@ -45,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		05EA02610361EE75E37283D5 /* Pods-Douban_quanxin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.release.xcconfig"; sourceTree = "<group>"; };
+		2634FA661CDDC8F4005E12C2 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		27F479C615DC837D4E4775A7 /* Pods-Douban_quanxin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Douban_quanxin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Douban_quanxin/Pods-Douban_quanxin.debug.xcconfig"; sourceTree = "<group>"; };
 		2FB8ABB61CDB6D8700D47097 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		2FB8ABB81CDB6D8700D47097 /* SidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarController.m; sourceTree = "<group>"; };
@@ -86,6 +91,10 @@
 		4AA210391CDDC9F900E0BA46 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		4AD3BDAB1CDCA88600B52F6D /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		62E2BF471CDDC95C0065451F /* ChannelsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewCell.h; sourceTree = "<group>"; };
+		62E2BF481CDDC95C0065451F /* ChannelsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewCell.m; sourceTree = "<group>"; };
+		62E2BF491CDDC95C0065451F /* ChannelsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewCell.xib; sourceTree = "<group>"; };
+		62E2BF4E1CDDCA1D0065451F /* ChannelsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewController.xib; sourceTree = "<group>"; };
 		62ED1D131CDB6CDB00845318 /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
 		62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
 		62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
@@ -135,6 +144,7 @@
 		4A5B05BD1CDB671700044517 /* Douban_quanxin */ = {
 			isa = PBXGroup;
 			children = (
+				62E2BF461CDDC8E80065451F /* view */,
 				4AD3BDAA1CDCA7F600B52F6D /* tangController */,
 				62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */,
 				62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */,
@@ -142,6 +152,7 @@
 				4A5B05DB1CDB683300044517 /* Model */,
 				4A5B05C11CDB671700044517 /* AppDelegate.h */,
 				2FEA36F51CDCBD1B00C9AAB1 /* New.storyboard */,
+				2634FA661CDDC8F4005E12C2 /* LaunchScreen.xib */,
 				4A5B05C21CDB671700044517 /* AppDelegate.m */,
 				4A5B05C41CDB671700044517 /* ViewController.h */,
 				4A5B05C51CDB671700044517 /* ViewController.m */,
@@ -195,6 +206,17 @@
 				4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */,
 			);
 			name = tangController;
+			sourceTree = "<group>";
+		};
+		62E2BF461CDDC8E80065451F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				62E2BF471CDDC95C0065451F /* ChannelsTableViewCell.h */,
+				62E2BF481CDDC95C0065451F /* ChannelsTableViewCell.m */,
+				62E2BF491CDDC95C0065451F /* ChannelsTableViewCell.xib */,
+				62E2BF4E1CDDCA1D0065451F /* ChannelsTableViewController.xib */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		62ED1D121CDB6C5900845318 /* LIcontroller */ = {
@@ -294,8 +316,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2634FA671CDDC8F4005E12C2 /* LaunchScreen.xib in Resources */,
 				4A5B05CE1CDB671700044517 /* LaunchScreen.storyboard in Resources */,
+				62E2BF4B1CDDC95C0065451F /* ChannelsTableViewCell.xib in Resources */,
 				4A5B05CB1CDB671700044517 /* Assets.xcassets in Resources */,
+				62E2BF4F1CDDCA1D0065451F /* ChannelsTableViewController.xib in Resources */,
 				2FEA36F61CDCBD1B00C9AAB1 /* New.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E2BF4A1CDDC95C0065451F /* ChannelsTableViewCell.m in Sources */,
 				4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */,
 				62F5AAF71CDC7E3100B2C17D /* LoginViewController.m in Sources */,
 				2FB8ABBC1CDB6D8700D47097 /* SidebarController.m in Sources */,
