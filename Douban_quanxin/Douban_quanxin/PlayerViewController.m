@@ -7,8 +7,14 @@
 //frfr
 
 #import <QuartzCore/QuartzCore.h>
-#import <UIKit+AFNetworking.h>
-#import <UIImageView+WebCache.h>
+
+
+#import <AFNetworking/UIKit+AFNetworking.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+//#import <UIKit+AFNetworking.h>
+//#import <UIImageView+WebCache.h>
+
+
 #import <Masonry/Masonry.h>
 
 #import <AFNetworking/AFNetworking.h>

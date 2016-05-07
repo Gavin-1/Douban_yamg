@@ -34,6 +34,7 @@
 		4A5B05F31CDB688400044517 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F01CDB688400044517 /* ProtocolClass.m */; };
 		4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F51CDB68B400044517 /* SongInfo.m */; };
 		4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F71CDB68B400044517 /* UserInfo.m */; };
+		4AA2103A1CDDC9F900E0BA46 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA210391CDDC9F900E0BA46 /* libAFNetworking.a */; };
 		4AD3BDAD1CDCA88600B52F6D /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */; };
 		62E2BF4A1CDDC95C0065451F /* ChannelsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E2BF481CDDC95C0065451F /* ChannelsTableViewCell.m */; };
 		62E2BF4B1CDDC95C0065451F /* ChannelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62E2BF491CDDC95C0065451F /* ChannelsTableViewCell.xib */; };
@@ -87,6 +88,7 @@
 		4A5B05F51CDB68B400044517 /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		4A5B05F61CDB68B400044517 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		4A5B05F71CDB68B400044517 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		4AA210391CDDC9F900E0BA46 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		4AD3BDAB1CDCA88600B52F6D /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		62E2BF471CDDC95C0065451F /* ChannelsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewCell.h; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA2103A1CDDC9F900E0BA46 /* libAFNetworking.a in Frameworks */,
 				4A5B05DA1CDB67EB00044517 /* AVFoundation.framework in Frameworks */,
 				4A5B05D81CDB67E500044517 /* Foundation.framework in Frameworks */,
 				4A5B05D61CDB67BA00044517 /* MediaPlayer.framework in Frameworks */,
@@ -242,6 +245,7 @@
 		EAD960310AEF3511B5EAA693 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4AA210391CDDC9F900E0BA46 /* libAFNetworking.a */,
 				4A5B05D91CDB67EB00044517 /* AVFoundation.framework */,
 				4A5B05D71CDB67E500044517 /* Foundation.framework */,
 				4A5B05D51CDB67BA00044517 /* MediaPlayer.framework */,
@@ -518,6 +522,10 @@
 				INFOPLIST_FILE = Douban_quanxin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tangjiawen.org.Douban-quanxin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -531,6 +539,10 @@
 				INFOPLIST_FILE = Douban_quanxin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tangjiawen.org.Douban-quanxin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
