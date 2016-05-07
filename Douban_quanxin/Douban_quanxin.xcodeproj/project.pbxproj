@@ -35,6 +35,9 @@
 		4A5B05F81CDB68B400044517 /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F51CDB68B400044517 /* SongInfo.m */; };
 		4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B05F71CDB68B400044517 /* UserInfo.m */; };
 		4AD3BDAD1CDCA88600B52F6D /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */; };
+		62E2BF4A1CDDC95C0065451F /* ChannelsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E2BF481CDDC95C0065451F /* ChannelsTableViewCell.m */; };
+		62E2BF4B1CDDC95C0065451F /* ChannelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62E2BF491CDDC95C0065451F /* ChannelsTableViewCell.xib */; };
+		62E2BF4F1CDDCA1D0065451F /* ChannelsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62E2BF4E1CDDCA1D0065451F /* ChannelsTableViewController.xib */; };
 		62ED1D151CDB6CDB00845318 /* ChannelsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */; };
 		62F5AAF61CDC7E3100B2C17D /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */; };
 		62F5AAF71CDC7E3100B2C17D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F5AAF11CDC7E3100B2C17D /* LoginViewController.m */; };
@@ -86,6 +89,10 @@
 		4A5B05F71CDB68B400044517 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		4AD3BDAB1CDCA88600B52F6D /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		62E2BF471CDDC95C0065451F /* ChannelsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewCell.h; sourceTree = "<group>"; };
+		62E2BF481CDDC95C0065451F /* ChannelsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewCell.m; sourceTree = "<group>"; };
+		62E2BF491CDDC95C0065451F /* ChannelsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewCell.xib; sourceTree = "<group>"; };
+		62E2BF4E1CDDCA1D0065451F /* ChannelsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelsTableViewController.xib; sourceTree = "<group>"; };
 		62ED1D131CDB6CDB00845318 /* ChannelsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewController.h; sourceTree = "<group>"; };
 		62ED1D141CDB6CDB00845318 /* ChannelsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewController.m; sourceTree = "<group>"; };
 		62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
@@ -134,6 +141,7 @@
 		4A5B05BD1CDB671700044517 /* Douban_quanxin */ = {
 			isa = PBXGroup;
 			children = (
+				62E2BF461CDDC8E80065451F /* view */,
 				4AD3BDAA1CDCA7F600B52F6D /* tangController */,
 				62F5AAEE1CDC7E3100B2C17D /* CDSideBarController.h */,
 				62F5AAEF1CDC7E3100B2C17D /* CDSideBarController.m */,
@@ -195,6 +203,17 @@
 				4AD3BDAC1CDCA88600B52F6D /* PlayerViewController.m */,
 			);
 			name = tangController;
+			sourceTree = "<group>";
+		};
+		62E2BF461CDDC8E80065451F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				62E2BF471CDDC95C0065451F /* ChannelsTableViewCell.h */,
+				62E2BF481CDDC95C0065451F /* ChannelsTableViewCell.m */,
+				62E2BF491CDDC95C0065451F /* ChannelsTableViewCell.xib */,
+				62E2BF4E1CDDCA1D0065451F /* ChannelsTableViewController.xib */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		62ED1D121CDB6C5900845318 /* LIcontroller */ = {
@@ -295,7 +314,9 @@
 			files = (
 				2634FA671CDDC8F4005E12C2 /* LaunchScreen.xib in Resources */,
 				4A5B05CE1CDB671700044517 /* LaunchScreen.storyboard in Resources */,
+				62E2BF4B1CDDC95C0065451F /* ChannelsTableViewCell.xib in Resources */,
 				4A5B05CB1CDB671700044517 /* Assets.xcassets in Resources */,
+				62E2BF4F1CDDCA1D0065451F /* ChannelsTableViewController.xib in Resources */,
 				2FEA36F61CDCBD1B00C9AAB1 /* New.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E2BF4A1CDDC95C0065451F /* ChannelsTableViewCell.m in Sources */,
 				4A5B05F91CDB68B400044517 /* UserInfo.m in Sources */,
 				62F5AAF71CDC7E3100B2C17D /* LoginViewController.m in Sources */,
 				2FB8ABBC1CDB6D8700D47097 /* SidebarController.m in Sources */,
